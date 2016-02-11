@@ -226,7 +226,7 @@ public class Vector2 {
 	 * @return The dot product.
 	 */
 	public float dot(Vector2 v) {
-		return x*v.getX()+y*getY();
+		return x*v.getX()+y*v.getY();
 	}
 	
 	/**
